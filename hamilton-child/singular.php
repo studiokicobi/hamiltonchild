@@ -16,9 +16,6 @@ if (have_posts()) :
 
 					the_title('<h1 class="title entry-title">', '</h1>');
 
-					// Make sure we have a custom excerpt
-					if (has_excerpt()) the_excerpt();
-
 					// Only output post meta data on single
 					if (is_single()) : ?>
 
@@ -31,7 +28,11 @@ if (have_posts()) :
 
 						</div><!-- .meta -->
 
-					<?php endif; ?>
+					<?php endif;
+
+					// Make sure we have a custom excerpt
+					if (has_excerpt()) the_excerpt();
+					?>
 
 				</div>
 
