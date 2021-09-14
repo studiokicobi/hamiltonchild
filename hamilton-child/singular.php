@@ -87,9 +87,8 @@ if (have_posts()) :
 
 		</article><!-- .entry -->
 
-		<div class="navigation">
-			<p><?php posts_nav_link(); ?></p>
-		</div>
+		<?php previous_post_link('&laquo; &laquo; %', 'Previous Post', 'yes'); ?> |
+		<?php next_post_link('% &raquo; &raquo; ', 'Next Post', 'yes'); ?>
 
 <?php
 
