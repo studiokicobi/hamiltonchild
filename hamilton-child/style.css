@@ -13,6 +13,36 @@
  * Child Theme Style.css styles
  * ------------------------------------------------------------------------- */
 
+/* Change default font */
+body {
+  font-family: ff-tisa-web-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Footer
+   ------------------------------ */
+
+/* Copyright */
+.site-footer p.copyright {
+  font-size: 0.8rem;
+  color: #787878;
+  text-align: right;
+}
+
+.site-nav footer p:last-child {
+  float: none;
+  font-style: italic;
+}
+
+/* Singular 
+   ------------------------------ */
+
+/* Meta */
+.meta {
+  font-style: italic;
+}
+
 /* Full-bleed utility */
 .fullbleed {
   width: 100vw;
@@ -28,28 +58,7 @@
   margin-bottom: 4rem;
 }
 
-/* Change default font */
-body {
-  font-family: ff-tisa-web-pro, serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* Make the related post images square */
 .related-posts .post-preview .preview-image:before {
   padding-bottom: 100%;
-}
-
-/* Copyright in footer */
-.site-footer p.copyright {
-  font-size: 0.8rem;
-  color: #787878;
-  text-align: right;
-}
-
-/* Singular */
-
-/* Meta */
-.meta {
-  font-style: italic;
 }
