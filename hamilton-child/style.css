@@ -60,7 +60,8 @@ body {
   font-style: normal;
 }
 
-/* Nav */
+/* Nav 
+   ------------------------------ */
 
 .site-nav {
   margin: 30px 0 0;
@@ -85,6 +86,11 @@ body {
   font-family: "HalisR-Medium", sans-serif;
   font-size: 2rem;
 }
+
+.site-nav.active {
+  padding-top: 170px !important;
+}
+
 /* Footer
    ------------------------------ */
 
