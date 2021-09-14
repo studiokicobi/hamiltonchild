@@ -53,9 +53,8 @@ if ($related_posts) : ?>
 
 	<div class="related-posts-wrapper section-inner">
 
-		<h3 class="related-title">Related work</h3>
-
 		<div class="related-posts group">
+			<h3 class="related-title">Related work</h3>
 
 			<?php
 
