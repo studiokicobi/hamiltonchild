@@ -83,3 +83,7 @@ header.page-header.section-inner h1.title.entry-title,
 header.page-header.section-inner .meta {
   text-align: left;
 }
+
+header.page-header.section-inner .meta {
+  margin-top: 1rem;
+}
