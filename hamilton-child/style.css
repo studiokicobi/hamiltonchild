@@ -20,14 +20,10 @@ body {
   font-style: normal;
 }
 
-/* Footer
-   ------------------------------ */
+/* Nav */
 
-/* Copyright */
-.site-footer p.copyright {
-  font-size: 0.8rem;
-  color: #787878;
-  text-align: right;
+.site-nav {
+  margin: 30px 0 0;
 }
 
 .site-nav footer p:last-child {
@@ -38,6 +34,16 @@ body {
 .site-nav footer a {
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+/* Footer
+   ------------------------------ */
+
+/* Copyright */
+.site-footer p.copyright {
+  font-size: 0.8rem;
+  color: #787878;
+  text-align: right;
 }
 
 /* Singular 
