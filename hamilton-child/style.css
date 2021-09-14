@@ -77,9 +77,14 @@ body {
 }
 
 .site-nav li {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
+.nav-title {
+  margin-top: 2rem;
+  font-family: "HalisR-Medium", sans-serif;
+  font-size: 2rem;
+}
 /* Footer
    ------------------------------ */
 
