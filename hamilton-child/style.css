@@ -80,7 +80,7 @@ body {
 }
 
 .section-inner.thin > p {
-  max-width: 45ch;
+  max-width: 45rem;
 }
 
 header.page-header.section-inner h1.title.entry-title,
@@ -95,4 +95,14 @@ header.page-header.section-inner .meta,
 
 header.page-header.section-inner .meta {
   margin-top: 0;
+}
+
+/* Archive 
+   ------------------------------ */
+
+.archive .page-header {
+  width: 100%;
+}
+.archive h1.title {
+  text-align: left;
 }
