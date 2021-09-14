@@ -158,6 +158,10 @@ header.page-header.section-inner h1.title.entry-title {
   margin-top: 0.8rem;
 }
 
+.single .page-header > div {
+  margin-top: 1rem;
+}
+
 header.page-header.section-inner .meta {
   margin-top: 0;
   margin-bottom: 2rem;
