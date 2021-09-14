@@ -142,7 +142,7 @@
 
 			<div class="section-inner group">
 
-				<p>Return to <a href="https://colinlewis.se" class="site-name" target="_blank">colinlewis.se</a></p>
+				<p>Return to <a href="https://colinlewis.se" target="_blank">colinlewis.se</a></p>
 
 			</div>
 
