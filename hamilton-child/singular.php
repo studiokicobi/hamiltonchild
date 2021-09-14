@@ -87,9 +87,10 @@ if (have_posts()) :
 
 		</article><!-- .entry -->
 
-		<?php previous_post_link('&laquo; &laquo; %', 'Previous Post', 'yes'); ?> |
-		<?php next_post_link('% &raquo; &raquo; ', 'Next Post', 'yes'); ?>
-
+		<?php
+		previous_post_link('<div class="previous">%link</div>', '%title');
+		next_post_link('<div class="next">%link</div>', '%title');
+		?>
 <?php
 
 		if (get_post_type() == 'post') get_template_part('related-posts');
