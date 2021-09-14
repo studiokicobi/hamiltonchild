@@ -12,3 +12,35 @@
 /* ----------------------------------------------------------------------------
  * Child Theme Style.css styles
  * ------------------------------------------------------------------------- */
+
+/* Full-bleed utility */
+.fullbleed {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Dark with margins, for use with images + .fullbleed */
+.dark {
+  padding: 2rem;
+  background: #222;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+/* Change default font */
+body {
+  font-family: ff-tisa-web-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Add shadow for contrast */
+.featured-image img {
+  box-shadow: 10px 0 100px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* Make the related post images square */
+.related-posts .post-preview .preview-image:before {
+  padding-bottom: 100%;
+}
