@@ -97,6 +97,7 @@ if (have_posts()) :
 <?php
 
 		if (get_post_type() == 'post') {
+			echo '<h3>Related work</h3>';
 			get_template_part('related-posts');
 		}
 	endwhile;
