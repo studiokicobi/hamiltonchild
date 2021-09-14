@@ -46,12 +46,12 @@
 			?>
 
 				<style>
-					.site-nav {
+					.xsite-nav {
 						padding-top: <?php echo $adjusted_height + 30; ?>px;
 					}
 
 					@media (max-width: 620px) {
-						.site-nav {
+						.xsite-nav {
 							padding-top: <?php echo $adjusted_height + 30; ?>px;
 						}
 					}
@@ -106,7 +106,7 @@
 	$bg_css = $bg_color && $bg_color != $bg_color_default ? ' style="background-color: #' . esc_attr($bg_color) . ';"' : '';
 	?>
 
-	<nav class="site-nav">
+	<nav class="site-nav" <?php echo $bg_css; ?>>
 
 		<div class="section-inner menus group">
 
