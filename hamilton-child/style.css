@@ -160,6 +160,7 @@ header.page-header.section-inner h1.title.entry-title {
 
 .single .page-header > div {
   margin-top: 1rem;
+  justify-content: start;
 }
 
 header.page-header.section-inner .meta {
