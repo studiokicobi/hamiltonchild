@@ -136,7 +136,7 @@ body {
 }
 
 .related-title {
-  margin: 8rem 0 2rem 0;
+  margin: 8rem auto 2rem auto;
   font-family: "HalisR-Medium", sans-serif;
   font-weight: normal;
 }
