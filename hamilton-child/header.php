@@ -106,7 +106,7 @@
 	$bg_css = $bg_color && $bg_color != $bg_color_default ? ' style="background-color: #' . esc_attr($bg_color) . ';"' : '';
 	?>
 
-	<nav class="site-nav x" <?php echo $bg_css; ?>>
+	<nav class="site-nav">
 
 		<div class="section-inner menus group">
 
