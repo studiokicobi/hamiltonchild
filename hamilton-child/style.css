@@ -79,6 +79,10 @@ body {
 /* Footer
    ------------------------------ */
 
+.site-footer {
+  padding: 100px 0 1rem 0;
+}
+
 /* Copyright */
 .site-footer p.copyright {
   font-size: 1rem;
