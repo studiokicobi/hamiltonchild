@@ -163,6 +163,13 @@ header.page-header.section-inner .meta {
   margin-bottom: 2rem;
 }
 
+.prev-next-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "HalisR-Regular", sans-serif;
+}
+
 /* Archive 
    ------------------------------ */
 
