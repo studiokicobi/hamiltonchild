@@ -89,8 +89,8 @@ if (have_posts()) :
 
 		<div class="section-inner prev-next-nav">
 			<?php
-			previous_post_link('<div class="previous">< %link</div>', '%title');
-			next_post_link('<div class="next">%link ></div>', '%title');
+			previous_post_link('<div class="previous">%link</div>', '%title');
+			next_post_link('<div class="next">%link</div>', '%title');
 			?>
 		</div>
 
