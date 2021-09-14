@@ -33,6 +33,7 @@ body {
   font-family: ff-tisa-web-pro, serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 1rem;
 }
 
 /* Add shadow for contrast */
@@ -44,3 +45,5 @@ body {
 .related-posts .post-preview .preview-image:before {
   padding-bottom: 100%;
 }
+
+/* Copyright in footer */
