@@ -48,6 +48,6 @@ body {
 /* Copyright in footer */
 .site-footer p.copyright {
   font-size: 0.8rem;
-  opacity: 80%;
+  color: #787878;
   text-align: right;
 }
