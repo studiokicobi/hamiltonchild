@@ -73,3 +73,13 @@ body {
 .related-posts .post-preview .preview-image:before {
   padding-bottom: 100%;
 }
+
+/* Header */
+.section-inner.thin {
+  max-width: 100%;
+}
+
+header.page-header.section-inner h1.title.entry-title,
+header.page-header.section-inner .meta {
+  text-align: left;
+}
