@@ -46,12 +46,12 @@
 			?>
 
 				<style>
-					.xsite-nav {
+					.site-nav {
 						padding-top: <?php echo $adjusted_height + 30; ?>px;
 					}
 
 					@media (max-width: 620px) {
-						.xsite-nav {
+						.site-nav {
 							padding-top: <?php echo $adjusted_height + 30; ?>px;
 						}
 					}
