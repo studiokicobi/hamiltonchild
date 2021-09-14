@@ -130,7 +130,7 @@ header.page-header.section-inner .meta,
 }
 
 header.page-header.section-inner h1.title.entry-title {
-  font-family: "HalisR-S-Medium", sans-serif;
+  font-family: "HalisR-Regular", sans-serif;
 }
 
 .page-header p {
@@ -150,5 +150,5 @@ header.page-header.section-inner .meta {
 }
 .archive h1.title {
   text-align: left;
-  font-family: "HalisR-S-Medium", sans-serif;
+  font-family: "HalisR-Regular", sans-serif;
 }
