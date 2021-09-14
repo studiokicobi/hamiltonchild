@@ -79,6 +79,10 @@ body {
   max-width: 100%;
 }
 
+.section-inner.thin > p {
+  max-width: 45ch;
+}
+
 header.page-header.section-inner h1.title.entry-title,
 header.page-header.section-inner .meta,
 .page-header p {
