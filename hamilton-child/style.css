@@ -37,7 +37,7 @@ body {
 
 /* Add shadow for contrast */
 .featured-image img {
-  box-shadow: 10px 0 100px 0 rgba(0, 0, 0, 0.15);
+  /* box-shadow: 10px 0 100px 0 rgba(0, 0, 0, 0.15); */
 }
 
 /* Make the related post images square */
@@ -50,5 +50,4 @@ body {
   font-size: 0.8rem;
   opacity: 80%;
   text-align: right;
-  text-transform: uppercase;
 }
