@@ -87,6 +87,10 @@ if (have_posts()) :
 
 		</article><!-- .entry -->
 
+		<div class="navigation">
+			<p><?php posts_nav_link(); ?></p>
+		</div>
+
 <?php
 
 		if (get_post_type() == 'post') get_template_part('related-posts');
