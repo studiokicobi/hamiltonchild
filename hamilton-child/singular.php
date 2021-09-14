@@ -96,8 +96,9 @@ if (have_posts()) :
 
 <?php
 
-		if (get_post_type() == 'post') get_template_part('related-posts');
-
+		if (get_post_type() == 'post') {
+			get_template_part('related-posts');
+		}
 	endwhile;
 
 endif;
