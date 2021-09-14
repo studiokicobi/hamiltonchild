@@ -80,7 +80,8 @@ body {
 }
 
 header.page-header.section-inner h1.title.entry-title,
-header.page-header.section-inner .meta {
+header.page-header.section-inner .meta,
+.page-header p {
   text-align: left;
 }
 
