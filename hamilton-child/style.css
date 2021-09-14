@@ -13,6 +13,46 @@
  * Child Theme Style.css styles
  * ------------------------------------------------------------------------- */
 
+/* Fonts
+   ------------------------------ */
+/* 
+font-family: "HalisR-Regular";
+font-family: "HalisR-Medium";
+font-family: "HalisR-S-Medium";
+*/
+
+@font-face {
+  font-family: "HalisR-Regular";
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Regular-webfont.woff2")
+      format("woff2"),
+    url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Regular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HalisR-Medium";
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Medium-webfont.woff2")
+      format("woff2"),
+    url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Medium-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HalisR-S-Medium";
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-S-Medium-webfont.woff2")
+      format("woff2"),
+    url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-S-Medium-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Base
+   ------------------------------ */
 /* Change default font */
 body {
   font-family: ff-tisa-web-pro, serif;
@@ -111,42 +151,4 @@ header.page-header.section-inner .meta {
 .archive h1.title {
   text-align: left;
   font-family: "HalisR-S-Medium", sans-serif;
-}
-
-/* Fonts
-   ------------------------------ */
-/* 
-font-family: "HalisR-Regular";
-font-family: "HalisR-Medium";
-font-family: "HalisR-S-Medium";
-*/
-
-@font-face {
-  font-family: "HalisR-Regular";
-  src: url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Regular-webfont.woff2")
-      format("woff2"),
-    url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Regular-webfont.woff")
-      format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HalisR-Medium";
-  src: url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Medium-webfont.woff2")
-      format("woff2"),
-    url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Medium-webfont.woff")
-      format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HalisR-S-Medium";
-  src: url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-S-Medium-webfont.woff2")
-      format("woff2"),
-    url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-S-Medium-webfont.woff")
-      format("woff");
-  font-weight: normal;
-  font-style: normal;
 }
