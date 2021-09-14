@@ -35,11 +35,6 @@ body {
   font-style: normal;
 }
 
-/* Add shadow for contrast */
-.featured-image img {
-  /* box-shadow: 10px 0 100px 0 rgba(0, 0, 0, 0.15); */
-}
-
 /* Make the related post images square */
 .related-posts .post-preview .preview-image:before {
   padding-bottom: 100%;
@@ -50,4 +45,11 @@ body {
   font-size: 0.8rem;
   color: #787878;
   text-align: right;
+}
+
+/* Singular */
+
+/* Meta */
+.meta {
+  font-style: italic;
 }
