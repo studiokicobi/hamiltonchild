@@ -135,6 +135,10 @@ body {
   transform: translateX(1px);
 }
 
+.related-posts-wrapper {
+  margin-top: 0;
+}
+
 .related-title {
   margin-top: 8rem;
   font-family: "HalisR-Medium", sans-serif;
