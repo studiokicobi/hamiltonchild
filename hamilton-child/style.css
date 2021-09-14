@@ -85,6 +85,10 @@ header.page-header.section-inner .meta,
   text-align: left;
 }
 
+.page-header p {
+  margin-top: 0.8rem;
+}
+
 header.page-header.section-inner .meta {
-  margin-top: 1rem;
+  margin-top: 0;
 }
