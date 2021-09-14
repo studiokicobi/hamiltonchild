@@ -115,6 +115,11 @@ body {
   padding-bottom: 100%;
 }
 
+.related-posts {
+  margin: 150px -11px 0 -11px;
+  transform: translateX(1px);
+}
+
 /* Header */
 .section-inner.thin {
   max-width: 100%;
