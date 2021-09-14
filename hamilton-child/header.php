@@ -47,12 +47,12 @@
 
 				<style>
 					.site-nav {
-						padding-top: <?php echo $adjusted_height + 30; ?>px;
+						padding-top: <?php echo $adjusted_height + 80; ?>px;
 					}
 
 					@media (max-width: 620px) {
 						.site-nav {
-							padding-top: <?php echo $adjusted_height + 30; ?>px;
+							padding-top: <?php echo $adjusted_height + 80; ?>px;
 						}
 					}
 				</style>
@@ -109,6 +109,7 @@
 	<nav class="site-nav" <?php echo $bg_css; ?>>
 
 		<div class="section-inner menus group">
+			<h2 class="nav-title">Colin Lewis / Portfolio</h2>
 
 			<?php
 			if (has_nav_menu('primary-menu')) :

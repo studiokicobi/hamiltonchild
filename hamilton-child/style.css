@@ -76,6 +76,10 @@ body {
   text-underline-offset: 2px;
 }
 
+.site-nav li {
+  font-size: 2rem;
+}
+
 /* Footer
    ------------------------------ */
 
