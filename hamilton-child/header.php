@@ -47,12 +47,12 @@
 
 				<style>
 					.site-nav {
-						padding-top: <?php echo $adjusted_height + 10; ?>px;
+						padding-top: <?php echo $adjusted_height + 30; ?>px;
 					}
 
 					@media (max-width: 620px) {
 						.site-nav {
-							padding-top: <?php echo $adjusted_height + 10; ?>px;
+							padding-top: <?php echo $adjusted_height + 30; ?>px;
 						}
 					}
 				</style>
