@@ -89,6 +89,10 @@ header.page-header.section-inner .meta,
   text-align: left;
 }
 
+header.page-header.section-inner h1.title.entry-title {
+  font-family: "HalisR-S-Medium", sans-serif;
+}
+
 .page-header p {
   margin-top: 0.8rem;
 }
@@ -106,4 +110,37 @@ header.page-header.section-inner .meta {
 }
 .archive h1.title {
   text-align: left;
+  font-family: "HalisR-S-Medium", sans-serif;
+}
+
+/* Fonts
+   ------------------------------ */
+/* 
+font-family: "HalisR-Regular";
+font-family: "HalisR-Medium";
+font-family: "HalisR-S-Medium";
+*/
+
+@font-face {
+  font-family: "HalisR-Regular";
+  src: url("../fonts/HalisR-Regular-webfont.woff2") format("woff2"),
+    url("../fonts/HalisR-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HalisR-Medium";
+  src: url("../fonts/HalisR-Medium-webfont.woff2") format("woff2"),
+    url("../fonts/HalisR-Medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HalisR-S-Medium";
+  src: url("../fonts/HalisR-S-Medium-webfont.woff2") format("woff2"),
+    url("../fonts/HalisR-S-Medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
