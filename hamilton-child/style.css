@@ -123,9 +123,9 @@ font-family: "HalisR-S-Medium";
 
 @font-face {
   font-family: "HalisR-Regular";
-  src: url("https://portfolio.colinlewis.se7wp-content/themes/hamilton-child/fonts/HalisR-Regular-webfont.woff2")
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Regular-webfont.woff2")
       format("woff2"),
-    url("https://portfolio.colinlewis.se7wp-content/themes/hamilton-child/fonts/HalisR-Regular-webfont.woff")
+    url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Regular-webfont.woff")
       format("woff");
   font-weight: normal;
   font-style: normal;
@@ -133,9 +133,9 @@ font-family: "HalisR-S-Medium";
 
 @font-face {
   font-family: "HalisR-Medium";
-  src: url("https://portfolio.colinlewis.se7wp-content/themes/hamilton-child/fonts/HalisR-Medium-webfont.woff2")
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Medium-webfont.woff2")
       format("woff2"),
-    url("https://portfolio.colinlewis.se7wp-content/themes/hamilton-child/fonts/HalisR-Medium-webfont.woff")
+    url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-Medium-webfont.woff")
       format("woff");
   font-weight: normal;
   font-style: normal;
@@ -143,9 +143,9 @@ font-family: "HalisR-S-Medium";
 
 @font-face {
   font-family: "HalisR-S-Medium";
-  src: url("https://portfolio.colinlewis.se7wp-content/themes/hamilton-child/fonts/HalisR-S-Medium-webfont.woff2")
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-S-Medium-webfont.woff2")
       format("woff2"),
-    url("https://portfolio.colinlewis.se7wp-content/themes/hamilton-child/fonts/HalisR-S-Medium-webfont.woff")
+    url("https://portfolio.colinlewis.se/wp-content/themes/hamilton-child/fonts/HalisR-S-Medium-webfont.woff")
       format("woff");
   font-weight: normal;
   font-style: normal;
