@@ -46,7 +46,7 @@ body {
 }
 
 /* Copyright in footer */
-.copyright {
+.site-footer p.copyright {
   font-size: 0.8rem;
   opacity: 80%;
   text-align: right;
