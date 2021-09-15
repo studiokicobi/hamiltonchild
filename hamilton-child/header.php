@@ -109,7 +109,7 @@
 	<nav class="site-nav" <?php echo $bg_css; ?>>
 
 		<div class="section-inner menus group">
-			<h2 class="nav-title">Colin Lewis / Portfolio</h2>
+			<h2 class="nav-title">Colin Lewis/portfolio</h2>
 
 			<?php
 			if (has_nav_menu('primary-menu')) :
@@ -143,7 +143,7 @@
 
 			<div class="section-inner group">
 
-				<p>Return to <a href="https://colinlewis.se" target="_blank">colinlewis.se</a></p>
+				<p>For more information about me, see my main page at <a href="https://colinlewis.se" target="_blank">colinlewis.se</a> or drop me a line via my <a href="https://form.typeform.com/to/FSVB9pzS">contact form</a>.</p>
 
 			</div>
 
