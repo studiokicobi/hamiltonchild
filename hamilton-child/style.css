@@ -189,7 +189,7 @@ header.page-header.section-inner .meta {
 
 /* the excerpt */
 .page-header p:last-child {
-  max-width: 45rem;
+  max-width: 40rem;
 }
 
 .prev-next-nav {
