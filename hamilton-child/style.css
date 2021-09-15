@@ -60,6 +60,15 @@ body {
   font-style: normal;
 }
 
+.preview-header {
+  font-family: "HalisR-Medium", sans-serif;
+  font-weight: normal;
+}
+
+.preview-image::after {
+  background: rgba(0, 0, 0, 0.7);
+}
+
 /* Nav 
    ------------------------------ */
 
