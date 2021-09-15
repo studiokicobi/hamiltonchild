@@ -143,7 +143,7 @@
 
 			<div class="section-inner group">
 
-				<p>For more information about me, see my main page at <a href="https://colinlewis.se" target="_blank">colinlewis.se</a> or drop me a line via my <a href="https://form.typeform.com/to/FSVB9pzS">contact form</a>.</p>
+				<p class="nav-outro">For more information about me, see my main page at <a href="https://colinlewis.se" target="_blank">colinlewis.se</a> or drop me a line via my <a target="_blank" href="https://form.typeform.com/to/FSVB9pzS">contact form</a>.</p>
 
 			</div>
 
