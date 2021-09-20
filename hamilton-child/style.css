@@ -101,6 +101,10 @@ body {
   font-size: 1.75rem;
 }
 
+.site-nav li ul.sub-menu li {
+  font-size: 1.25rem;
+}
+
 .nav-title {
   margin-top: 2rem;
   font-family: "HalisR-Medium", sans-serif;
@@ -116,6 +120,12 @@ body {
 
 .site-footer {
   padding: 100px 0 1rem 0;
+}
+
+@media (max-width: 620px) {
+  .site-nav footer {
+    display: block;
+  }
 }
 
 /* Copyright */
