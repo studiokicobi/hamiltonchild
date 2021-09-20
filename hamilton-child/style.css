@@ -102,7 +102,7 @@ body {
 }
 
 .site-nav li ul.sub-menu li {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
 }
 
 .nav-title {
@@ -113,6 +113,16 @@ body {
 
 .nav-outro {
   max-width: 90%;
+}
+
+/* Stack menus */
+.site-nav .menus > ul {
+  float: none;
+  width: auto;
+}
+
+.site-nav ul + ul {
+  margin-left: 0;
 }
 
 /* Footer
