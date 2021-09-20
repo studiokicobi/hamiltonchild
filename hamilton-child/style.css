@@ -80,6 +80,7 @@ body {
   float: none;
   font-style: italic;
   font-size: 1.35rem;
+  color: rgba(0, 0, 0, 0.85);
 }
 
 .site-nav footer a {
@@ -111,7 +112,7 @@ body {
 /* Copyright */
 .site-footer p.copyright {
   font-size: 1rem;
-  color: #787878;
+  color: #888;
   text-align: right;
   font-family: HalisR-Regular, sans-serif;
 }
