@@ -150,6 +150,10 @@ body {
   font-family: var(--sans-med);
 }
 
+.site-nav ul + ul a {
+  color: var(--text-color);
+}
+
 /* Footer
    ------------------------------ */
 
