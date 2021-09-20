@@ -83,6 +83,15 @@ body {
   background: rgba(0, 0, 0, 0.85);
 }
 
+p {
+  margin: 0 0 0.5rem;
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
 /* Nav 
    ------------------------------ */
 
