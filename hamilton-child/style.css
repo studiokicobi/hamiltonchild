@@ -273,3 +273,18 @@ header.page-header.section-inner .meta {
   text-align: left;
   font-family: var(--sans-reg);
 }
+
+/* About 
+   ------------------------------ */
+body.page-id-317 .page-header {
+  min-height: auto;
+  margin: 0 auto 2rem auto;
+}
+
+body.page-id-317 .page-header p {
+  font-size: 1.65rem;
+}
+
+body.page-id-317 .page-header p:last-child {
+  max-width: 45rem;
+}
