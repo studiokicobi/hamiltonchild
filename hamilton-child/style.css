@@ -132,6 +132,11 @@ body {
   border-top: 1px solid #ddd;
 }
 
+#menu-secondary li {
+  font-size: 1.35rem;
+  font-family: "HalisR-Medium", sans-serif;
+}
+
 /* Footer
    ------------------------------ */
 
