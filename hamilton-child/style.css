@@ -305,6 +305,10 @@ body.page-about .page-header p:last-child {
 /* Buttons
    ------------------------------ */
 
+.cl-button {
+  margin-top: 2rem;
+}
+
 .cl-button a,
 .cl-button a:link,
 .cl-button a:visited {
