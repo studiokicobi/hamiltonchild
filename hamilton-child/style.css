@@ -147,7 +147,7 @@ body {
 
 #menu-secondary li {
   font-size: 1.35rem;
-  font-family: var(--sans-reg);
+  font-family: var(--serif);
 }
 
 .site-nav ul + ul a {
