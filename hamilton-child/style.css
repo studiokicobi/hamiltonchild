@@ -81,6 +81,10 @@ body {
   margin: 30px 0 0;
 }
 
+.site-nav ul ul {
+  margin: 20px 0 0 1rem;
+}
+
 .site-nav footer p:last-child {
   float: none;
   font-style: italic;
