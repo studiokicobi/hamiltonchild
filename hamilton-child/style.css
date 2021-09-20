@@ -79,6 +79,7 @@ body {
 .site-nav footer p:last-child {
   float: none;
   font-style: italic;
+  font-size: 1.35rem;
 }
 
 .site-nav footer a {
@@ -97,7 +98,7 @@ body {
 }
 
 .nav-outro {
-  max-width: 35rem;
+  max-width: 90%;
 }
 
 /* Footer
