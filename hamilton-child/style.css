@@ -87,6 +87,10 @@ p {
   margin: 0 0 0.5rem;
 }
 
+p ~ ul {
+  margin-top: 2rem;
+}
+
 h2 {
   margin-top: 3rem;
   margin-bottom: 1rem;
@@ -311,7 +315,6 @@ body.page-about .page-header p:last-child {
   display: inline-block;
   font-family: var(--sans-med);
   font-size: 1.2rem;
-  margin: 0;
   padding: 1rem 1.25rem;
   text-align: center;
   transition: background-color 0.2s ease-in-out;
