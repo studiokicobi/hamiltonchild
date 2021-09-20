@@ -141,13 +141,13 @@ body {
 /* Secondary menu */
 #menu-secondary {
   margin-top: 2rem;
-  padding-top: 0.5rem;
+  padding-top: 0.95rem;
   border-top: 1px solid #ddd;
 }
 
 #menu-secondary li {
   font-size: 1.35rem;
-  font-family: var(--sans-med);
+  font-family: var(--sans-reg);
 }
 
 .site-nav ul + ul a {
