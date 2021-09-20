@@ -51,18 +51,31 @@ font-family: "HalisR-S-Medium";
   font-style: normal;
 }
 
+/* Variables
+   ------------------------------ */
+:root {
+  /* Colours */
+  --text-color: #2c2525;
+  --bg-color: #fffbf9;
+
+  /* Fonts */
+  --sans-reg: "HalisR-Regular", sans-serif;
+  --sans-med: "HalisR-Medium", sans-serif;
+  --serif: ff-tisa-web-pro, serif;
+}
+
 /* Base
    ------------------------------ */
 /* Change default font */
 body {
-  font-family: ff-tisa-web-pro, serif;
+  font-family: var(--serif);
   font-weight: 400;
   font-style: normal;
-  color: #2c2525;
+  color: var(--text-color);
 }
 
 .preview-header {
-  font-family: "HalisR-Medium", sans-serif;
+  font-family: var(--sans-med);
   font-weight: normal;
 }
 
@@ -74,7 +87,7 @@ body {
    ------------------------------ */
 
 .site-header {
-  background-color: #fffbf9;
+  background-color: var(--bg-color);
 }
 
 .site-nav {
@@ -107,7 +120,7 @@ body {
 
 .nav-title {
   margin-top: 2rem;
-  font-family: "HalisR-Medium", sans-serif;
+  font-family: var(--sans-med);
   font-size: 2rem;
 }
 
@@ -134,7 +147,7 @@ body {
 
 #menu-secondary li {
   font-size: 1.35rem;
-  font-family: "HalisR-Medium", sans-serif;
+  font-family: var(--sans-med);
 }
 
 /* Footer
@@ -153,9 +166,9 @@ body {
 /* Copyright */
 .site-footer p.copyright {
   font-size: 1rem;
-  color: #888;
+  color: #666;
   text-align: right;
-  font-family: HalisR-Regular, sans-serif;
+  font-family: var(--sans-med);
 }
 
 /* Singular 
@@ -197,7 +210,7 @@ body {
 
 .related-title {
   margin-top: 10rem;
-  font-family: "HalisR-Regular", sans-serif;
+  font-family: var(--sans-reg);
   font-weight: normal;
 }
 
@@ -217,7 +230,7 @@ header.page-header.section-inner .meta,
 }
 
 header.page-header.section-inner h1.title.entry-title {
-  font-family: "HalisR-Regular", sans-serif;
+  font-family: var(--sans-reg);
 }
 
 .page-header p {
@@ -243,7 +256,7 @@ header.page-header.section-inner .meta {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: "HalisR-Medium", sans-serif;
+  font-family: var(--sans-med);
 }
 
 /* Archive 
@@ -254,5 +267,5 @@ header.page-header.section-inner .meta {
 }
 .archive h1.title {
   text-align: left;
-  font-family: "HalisR-Regular", sans-serif;
+  font-family: var(--sans-reg);
 }
